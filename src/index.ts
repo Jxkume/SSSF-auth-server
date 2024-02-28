@@ -10,6 +10,7 @@ const port = process.env.PORT || 3000;
       console.log(`Listening: http://localhost:${port}`);
       /* eslint-enable no-console */
     });
+    // i hope this works now
   } catch (error) {
     console.log('Server error', (error as Error).message);
   }
